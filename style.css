@@ -1,0 +1,150 @@
+.start {
+    background-color: #bcbcbc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .start .overlap-wrapper {
+    background-color: #bcbcbc;
+    width: 1512px;
+    height: 982px;
+  }
+  
+  .start .overlap {
+    position: relative;
+    height: 982px;
+    background-image: url(./img/background.png);
+    background-size: 100% 100%;
+  }
+  
+  .start .background {
+    position: absolute;
+    width: 1512px;
+    height: 982px;
+    top: 0;
+    left: 0;
+  }
+  
+  .start .vina-kitchens {
+    position: absolute;
+    width: 297px;
+    height: 92px;
+    top: 64px;
+    left: 54px;
+  }
+  
+  .start .link-menues {
+    position: absolute;
+    width: 216px;
+    height: 16px;
+    top: 83px;
+    left: 381px;
+  }
+  
+  .start .img {
+    width: 462px;
+    top: 83px;
+    left: 381px;
+    position: absolute;
+    height: 18px;
+  }
+  
+  .start .link-menues-2 {
+    width: 247px;
+    top: 91px;
+    left: 1233px;
+    position: absolute;
+    height: 18px;
+  }
+  
+  .start .component {
+    position: absolute;
+    width: 424px;
+    height: 275px;
+    top: 635px;
+    left: 585px;
+    transition: all 0.5s ease;
+  }
+  
+  .start .overlap-group {
+    position: relative;
+    height: 275px;
+  }
+  
+  .start .mask-group {
+    position: absolute;
+    width: 332px;
+    height: 230px;
+    top: 0;
+    left: 92px;
+  }
+  
+  .start .rectangle-glass {
+    position: absolute;
+    width: 335px;
+    height: 116px;
+    top: 159px;
+    left: 0;
+    background-color: #d9d9d91a;
+    border-radius: 100px;
+    box-shadow: inset -3.01px 3.01px 3.01px #ffffff66, inset 3.01px -3.01px 3.01px #b6b6b666;
+    backdrop-filter: blur(30.07px) brightness(100%);
+    -webkit-backdrop-filter: blur(30.07px) brightness(100%);
+  }
+  
+  .start .frame {
+    display: flex;
+    width: 244px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 10px 24px 10px 10px;
+    position: absolute;
+    top: 182px;
+    left: 45px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  
+  .start .play-button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: -0.5px;
+    background-color: #000000;
+    border-radius: 25px;
+  }
+  
+  .start .polygon-wrapper {
+    position: relative;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 25px;
+  }
+  
+  .start .polygon {
+    position: absolute;
+    width: 27px;
+    height: 31px;
+    top: 10px;
+    left: 16px;
+  }
+  
+  .start .text-wrapper {
+    position: relative;
+    width: 143px;
+    height: 35px;
+    margin-right: -0.5px;
+    font-family: "Podkova-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
