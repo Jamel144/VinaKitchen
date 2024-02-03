@@ -11,12 +11,15 @@
     width: 1512px;
     height: 982px;
   } */
+
+  body
   
   .overlap {
     position: relative;
     height: 982px;
     background-image: url(./img/background.png);
-    background-size: 100% 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
  /*  .start .background {
@@ -30,7 +33,7 @@
   .vina-kitchens {
     position: absolute;
     width: 297px;
-    height: 92px;
+    height: 72px;
     top: 64px;
     left: 54px;
   }
@@ -154,6 +157,7 @@
  align-items: flex-start;
  gap: 30px;  
  position: relative;
+ color: #ffffff;
 }
 
 .overlap-wrapper.overlap.Navbar.new-in {
@@ -169,12 +173,9 @@
     left: 0;
     font-family: podkova-Regular, Helvetica;
     font-weight: 400;
-    color: #ffffff;
     font-size: 16px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
 }
-
-  

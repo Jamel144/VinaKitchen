@@ -1,0 +1,20 @@
+.vina-kitchens {
+    position: absolute;
+    width: 297px;
+    height: 72px;
+    top: 64px;
+    left: 54px;
+  }
+
+  body{
+    background-image: url(./img/background.png);
+  }
+  footer{
+    color: white;
+  }
+
+  .menu{
+    color: white;
+    display: inline-flex;
+    align-items: flex-start;
+  }
