@@ -24,7 +24,7 @@
     display: flex;
     gap: 60px;
     left: 28%;
-    top: 30px;
+    top: 17px;
     padding-top: 50px;
   }
 
@@ -36,12 +36,54 @@
     font-family: 'Podkova', serif;
   }
 
+  p:hover{
+    color: #E7E0E0;
+  }
+
   .log-in{
     position: relative;
     display: inline-flex;
     color: white;
     right: -20%;
     font-family: 'Podkova', serif;
+  }
+
+  .button {
+    position: absolute;
+    padding: 0 0 45.44px 92px;
+    top: auto;
+    bottom: 10%;
+    left: 37%;
+    
+
+  }
+  .mask-group {
+    position: relative;
+  }
+  .rectangle-5 {
+    width: 113.3%;
+    height: 13.07%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .flex-wrapper-one {
+    background-color: rgba(217, 217, 217, 0.1);
+    border-radius: 100px;
+    padding: 23px 46px 23px 45px;
+    box-shadow: -3px 3px 3px 0 rgba(255, 255, 255, 0.4) inset,
+      3px -3px 3px 0 rgba(182, 182, 182, 0.4) inset;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    backdrop-filter: blur(30.07px);
+  }
+  .frame-3 {
+    flex: 1;
+    align-self: stretch;
+    object-fit: cover;
   }
 
   
