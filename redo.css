@@ -4,59 +4,87 @@
 
 
 .vina-kitchens {
-    position: absolute;
-    width: 297px;
-    height: 72px;
+    position: flex;
     top: 64px;
     left: 54px;
+    width: 297px;
+    height: 72px;
+    
   }
 
   body{
     background-image: url(./img/background.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:auto;
     overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+   
     
   }
+.nav-box{
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 80px;
+}
 
-  nav{
-    position: relative;
+  .menu-box{
+    left: auto;
+    
+    
+  }
+  .menu-box ul   {
+    
+    list-style-type: none;
     display: flex;
-    gap: 60px;
-    left: 28%;
-    top: 17px;
-    padding-top: 50px;
+    justify-content: space-between;
+    gap: 65px;
   }
 
-  .menu{
-    color: white;
-    display: inline-flex;
-    align-items: flex-start;
-    left: 50px;
+   .menu-box ul li a{
+    color:  white;
+    text-decoration: none;
     font-family: 'Podkova', serif;
+   }
+
+   .log-in-box{
+   right: 31%;
+
   }
+
+   .log-in-box ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 65px;
+   }
+
+   .log-in-box ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Podkova', serif;
+    
+   }
+
 
   p:hover{
     color: #E7E0E0;
   }
 
   .log-in{
-    position: relative;
-    display: inline-flex;
     color: white;
-    right: -20%;
     font-family: 'Podkova', serif;
-  }
+    }
 
+  
   .button {
     position: absolute;
-    padding: 0 0 45.44px 92px;
-    top: auto;
+    right: 60%;
     bottom: 10%;
-    left: 37%;
-    
-
-  }
+  } 
+  
   .mask-group {
     position: relative;
   }
