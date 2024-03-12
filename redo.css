@@ -113,6 +113,11 @@
     bottom: 0;
     backdrop-filter: blur(30.07px);
   }
+
+  .flex-wrapper-one:hover{
+    opacity: 0.5;
+  }
+
   .frame-3 {
     flex: 1;
     align-self: stretch;
