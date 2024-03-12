@@ -49,6 +49,10 @@
     font-family: 'Podkova', serif;
    }
 
+   .menu-box a:hover{
+    color: #E7E0E0;
+   }
+
    .log-in-box{
    right: 31%;
 
@@ -68,10 +72,11 @@
     
    }
 
-
-  p:hover{
+   .log-in-box a:hover{
     color: #E7E0E0;
-  }
+   }
+
+
 
   .log-in{
     color: white;
