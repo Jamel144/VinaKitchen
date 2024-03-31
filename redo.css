@@ -145,6 +145,7 @@
       backdrop-filter: blur(30.07px);
       position:sticky;
       display:block;
+      bottom: 80%;
     }
    
 
