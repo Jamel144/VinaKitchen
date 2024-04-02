@@ -5,21 +5,21 @@
 
 .vina-kitchens {
     position: flex;
-    top: 64px;
-    left: 54px;
-    width: 297px;
-    height: 72px;
+    top: 10%;
+    left: 60%;
+    width: 20%;
+    height: 20%;
     
   }
 
   body{
     background-image: url(./img/background.png);
+    background-position: center, center;
     background-repeat: no-repeat;
-    background-size:auto;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    background-size: cover;
+    background-color:#2c3036;
+    background-attachment: fixed;
+
    }
 
    footer{
@@ -29,7 +29,10 @@
 
    .mobile-logo{
     display: none;
+   }
 
+   .mobile-menu{
+    display: none;
    }
 
 
@@ -93,6 +96,10 @@
     font-family: 'Podkova', serif;
     }
 
+    .frame-3{
+      width: 100%;
+    }
+
   .play-button {
     background-color: rgba(217, 217, 217, 0.1);
     border-radius: 100px;
@@ -102,6 +109,9 @@
     backdrop-filter: blur(30.07px);
     position: fixed;
     top: 75%;
+    left: 40%;
+    width: 17%;
+  
   }
 
   .play-button:hover{
@@ -124,7 +134,13 @@
       position: fixed;
       top: 3%;
       left: 5%;
-  
+     }
+
+     .mobile-menu{
+      display: block;
+      position: fixed;
+      top: 3%;
+      right: 5%;
      }
 
     body {
@@ -143,9 +159,9 @@
       box-shadow: -3px 3px 3px 0 rgba(255, 255, 255, 0.4) inset,
         3px -3px 3px 0 rgba(182, 182, 182, 0.4) inset;
       backdrop-filter: blur(30.07px);
-      position:sticky;
-      display:block;
-      bottom: 80%;
+     position: fixed;
+     left: 9%;
+    
     }
    
 
