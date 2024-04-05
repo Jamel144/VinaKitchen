@@ -35,6 +35,13 @@
     display: none;
    }
 
+   .mobileNav{
+    display: none;
+   }
+   .navClose{
+    display: none;
+   }
+
 
 .nav-box{
     display:flex;
@@ -123,7 +130,7 @@
   }
 
 
-  @media all and (max-width: 500px){
+  @media all and (max-width: 480px){
 
  
 .nav-box{
@@ -133,14 +140,16 @@
       display: block;
       position: fixed;
       top: 3%;
-      left: 5%;
+      left: 0%;
+      padding-left: 20px;
      }
 
      .mobile-menu{
       display: block;
       position: fixed;
       top: 3%;
-      right: 5%;
+      right: 0%;
+      padding-right: 20px;
      }
 
     body {
@@ -148,8 +157,13 @@
       background-color: #342D2D;
       height: 100%;
       overflow-y: hidden;
-
+      overflow-x: hidden;
+      width:max-content;
       
+    }
+
+    .frame-3{
+      width: 100%;
     }
 
     .play-button {
@@ -159,11 +173,48 @@
       box-shadow: -3px 3px 3px 0 rgba(255, 255, 255, 0.4) inset,
         3px -3px 3px 0 rgba(182, 182, 182, 0.4) inset;
       backdrop-filter: blur(30.07px);
-     position: fixed;
-     left: 9%;
-    
+     position: absolute;
+    top: 75%; 
+    left: 25%;
+    width: 30%;
     }
+
+    .mobileNav{
+      display: none;
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 250px;
+      z-index: 999;
+      background-color: white;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+     }
+
+     .mobileNav ul{
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+      gap: 30px;
+      
+
+     }
+
+     .mobileNav ul li a{
+      color:black;
+      text-decoration: none;
+      font-family: 'Podkova', serif;
+     }
    
+     .navClose{
+      display: flex;
+      position: fixed;
+      top: 2%;
+      right: 0%;
+      padding-right: 20px;
+    }
 
   }
 

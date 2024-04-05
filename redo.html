@@ -29,6 +29,15 @@
     
 
 <body>
+  <div class="mobileNav">
+    <ul>
+      <img onclick= hideSideBar() class="navClose" src="img/cross.svg">
+      <li><a href="">New In</a></li>
+      <li><a href="">Collections</a></li>
+      <li><a href="">Seasonal</a></li>
+      <li><a href="">Designers</a></li>
+  </ul>
+  </div>
     
           <div class="play-button">
             <a href=""> 
@@ -43,7 +52,20 @@
         
       </div>
       <img class="mobile-logo" src="img/Vinaa.svg">
-      <img class="mobile-menu" src="img/burger-menu.svg">
+      <img onclick= showSideBar() class="mobile-menu" src="img/burger-menu.svg">
+
+      <script>
+        function showSideBar(){
+          const mobileNav = document.querySelector(".mobileNav")
+          mobileNav.style.display = "flex"}
+
+          function hideSideBar(){
+            const mobileNav = document.querySelector(".mobileNav")
+          mobileNav.style.display = "none"
+          }
+           
+        
+      </script>
 </body>
 <footer></footer>
 </html>
