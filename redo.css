@@ -1,133 +1,145 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
 
+@media all and (min-width: 481px) {
 
-.vina-kitchens {
-    position: flex;
-    top: 10%;
-    left: 60%;
-    width: 20%;
-    height: 20%;
-    
+ 
+
+
+  .vina-kitchens {
+      position: flex;
+      top: 10%;
+      left: 60%;
+      width: 20%;
+      height: 20%;
+      
+    }
+  
+    body{
+      background-image: url(./img/background.png);
+      background-position: center, center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color:#2c3036;
+      background-attachment: fixed;
+  
+     }
+  
+     footer{
+      position: absolute;
+      bottom: 0;
+     }
+  
+     .mobile-logo{
+      display: none;
+     }
+  
+     .mobile-menu{
+      display: none;
+     }
+  
+     .mobileNav{
+      display: none;
+     }
+     .navClose{
+      display: none;
+     }
+
+     .mobileLogIn{
+      display: none;
+     }
+  
+  
+  .nav-box{
+      display:flex;
+      flex-flow: row;
+      justify-content: space-between;
+      gap: 80px;
   }
-
-  body{
-    background-image: url(./img/background.png);
-    background-position: center, center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color:#2c3036;
-    background-attachment: fixed;
-
-   }
-
-   footer{
-    position: absolute;
-    bottom: 0;
-   }
-
-   .mobile-logo{
-    display: none;
-   }
-
-   .mobile-menu{
-    display: none;
-   }
-
-   .mobileNav{
-    display: none;
-   }
-   .navClose{
-    display: none;
-   }
-
-
-.nav-box{
-    display:flex;
-    flex-flow: row;
-    justify-content: space-between;
-    gap: 80px;
+  
+    .menu-box{
+      left: auto;
+      
+      
+    }
+    .menu-box ul   {
+      
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 65px;
+    }
+  
+     .menu-box ul li a{
+      color:  white;
+      text-decoration: none;
+      font-family: 'Podkova', serif;
+     }
+  
+     .menu-box a:hover{
+      color: #E7E0E0;
+     }
+  
+     .log-in-box{
+     right: 31%;
+  
+    }
+  
+     .log-in-box ul {
+      display: flex;
+      list-style-type: none;
+      justify-content: space-between;
+      gap: 65px;
+     }
+  
+     .log-in-box ul li a{
+      color: white;
+      text-decoration: none;
+      font-family: 'Podkova', serif;
+      
+     }
+  
+     .log-in-box a:hover{
+      color: #E7E0E0;
+     }
+  
+  
+  
+    .log-in{
+      color: white;
+      font-family: 'Podkova', serif;
+      }
+  
+      .frame-3{
+        width: 100%;
+      }
+  
+    .play-button {
+      background-color: rgba(217, 217, 217, 0.1);
+      border-radius: 100px;
+      padding: 23px 46px 23px 45px;
+      box-shadow: -3px 3px 3px 0 rgba(255, 255, 255, 0.4) inset,
+        3px -3px 3px 0 rgba(182, 182, 182, 0.4) inset;
+      backdrop-filter: blur(30.07px);
+      position: fixed;
+      top: 75%;
+      left: 40%;
+      width: 17%;
+    
+    }
+  
+    .play-button:hover{
+      opacity: 0.5;
+    }
+  
+    .play-button a:focus{
+      background-color: #2c3036;
+    }
+  
 }
 
-  .menu-box{
-    left: auto;
-    
-    
-  }
-  .menu-box ul   {
-    
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 65px;
-  }
-
-   .menu-box ul li a{
-    color:  white;
-    text-decoration: none;
-    font-family: 'Podkova', serif;
-   }
-
-   .menu-box a:hover{
-    color: #E7E0E0;
-   }
-
-   .log-in-box{
-   right: 31%;
-
-  }
-
-   .log-in-box ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    gap: 65px;
-   }
-
-   .log-in-box ul li a{
-    color: white;
-    text-decoration: none;
-    font-family: 'Podkova', serif;
-    
-   }
-
-   .log-in-box a:hover{
-    color: #E7E0E0;
-   }
 
 
-
-  .log-in{
-    color: white;
-    font-family: 'Podkova', serif;
-    }
-
-    .frame-3{
-      width: 100%;
-    }
-
-  .play-button {
-    background-color: rgba(217, 217, 217, 0.1);
-    border-radius: 100px;
-    padding: 23px 46px 23px 45px;
-    box-shadow: -3px 3px 3px 0 rgba(255, 255, 255, 0.4) inset,
-      3px -3px 3px 0 rgba(182, 182, 182, 0.4) inset;
-    backdrop-filter: blur(30.07px);
-    position: fixed;
-    top: 75%;
-    left: 40%;
-    width: 17%;
-  
-  }
-
-  .play-button:hover{
-    opacity: 0.5;
-  }
-
-  .play-button a:focus{
-    background-color: #2c3036;
-  }
 
 
   @media all and (max-width: 480px){
@@ -191,6 +203,7 @@
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
+
      }
 
      .mobileNav ul{
@@ -198,24 +211,42 @@
       flex-direction: column;
       list-style-type: none;
       gap: 30px;
+      padding-left: 80px;
+      top: 10%;
+      position: absolute;
       
-
-     }
+}
 
      .mobileNav ul li a{
       color:black;
       text-decoration: none;
       font-family: 'Podkova', serif;
+      text-align:center;
      }
    
      .navClose{
       display: flex;
-      position: fixed;
-      top: 2%;
-      right: 0%;
-      padding-right: 20px;
+      position: absolute;
+      right: 5%;
+      top: 3%;
     }
 
+    .mobileLogIn{
+      position: relative;
+      top: 50%; 
+      padding-left: 15%; 
+    }
+
+    .mobileLogIn ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      white-space: nowrap;
+      padding: 0;
+      }
+
+      .mobileLogIn ul li a {
+      color: purple; 
+      
+    }
   }
-
-

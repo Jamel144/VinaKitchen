@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" href="redo.css" /> 
+    <script src="redo.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,14 +31,21 @@
 
 <body>
   <div class="mobileNav">
+    <img onclick= hideSideBar() class="navClose" src="img/cross.svg">
     <ul>
-      <img onclick= hideSideBar() class="navClose" src="img/cross.svg">
       <li><a href="">New In</a></li>
       <li><a href="">Collections</a></li>
       <li><a href="">Seasonal</a></li>
       <li><a href="">Designers</a></li>
   </ul>
+  <div class="mobileLogIn"> 
+    <ul>
+      <li><a href="">Log In</a></li>
+      <li><a href="">Create Account</a></li>
+  </ul>
   </div>
+  </div>
+  
     
           <div class="play-button">
             <a href=""> 
@@ -54,18 +62,6 @@
       <img class="mobile-logo" src="img/Vinaa.svg">
       <img onclick= showSideBar() class="mobile-menu" src="img/burger-menu.svg">
 
-      <script>
-        function showSideBar(){
-          const mobileNav = document.querySelector(".mobileNav")
-          mobileNav.style.display = "flex"}
-
-          function hideSideBar(){
-            const mobileNav = document.querySelector(".mobileNav")
-          mobileNav.style.display = "none"
-          }
-           
-        
-      </script>
 </body>
 <footer></footer>
 </html>
