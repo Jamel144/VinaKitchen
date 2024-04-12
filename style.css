@@ -82,6 +82,7 @@
   
      .log-in-box{
      right: 31%;
+     padding-right: 5%;
   
     }
   
@@ -245,8 +246,5 @@
       padding: 0;
       }
 
-      .mobileLogIn ul li a {
-      color: purple; 
-      
-    }
+  
   }
